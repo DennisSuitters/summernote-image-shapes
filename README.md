@@ -36,6 +36,8 @@ $(document).ready(function() {
 ```
 
 #### 4. Check out our other Summernote Plugins
+- [Summernote Image Attributes](https://github.com/StudioJunkyard/summernote-image-attributes)
+  - Add Button to Image Popup to enable editing various Image Attributes, including adding Links.
 - [Summernote Video Attributes](https://github.com/StudioJunkyard/summernote-video-attributes)
   - Insert Video's from various Streaming Services, with Options Editing.
 - [Summernote Cleaner](https://github.com/StudioJunkyard/summernote-cleaner)
