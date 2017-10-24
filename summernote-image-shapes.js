@@ -34,7 +34,7 @@
         var button=ui.buttonGroup([
           ui.button({
             className:'dropdown-toggle',
-            contents:options.imageShapes.icon+' <span class="caret"></span>',
+            contents:options.imageShapes.icon+'&nbsp;&nbsp;<span class="caret"></span>',
             tooltip:lang.imageShapes.tooltipShape,
             data:{
               toggle:'dropdown'
