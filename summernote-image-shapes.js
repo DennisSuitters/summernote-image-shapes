@@ -51,9 +51,12 @@
                 $button.data('value'),
                 lang.imageShapes.tooltipShapeOptions
               );
-              $.each(options.imageShapes.shapes, function (index,value) {
-                $img.removeClass(value);
-              });
+              // remove applied classes only if None option chosen
+              if(options.imageShapes.shapes[index]==''){
+                $.each(options.imageShapes.shapes, function (index,value) {
+                  $img.removeClass(value);
+                });
+              }
               $img.addClass(options.imageShapes.shapes[index]);
               context.invoke('editor.afterCommand');
             }
