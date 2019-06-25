@@ -16,12 +16,6 @@
         tooltipShapeOptions: ['Responsive', 'Rounded', 'Circle', 'Thumbnail', 'None']
       }
     },
-    'pt-BR': {
-      imageShapes: {
-        tooltip: 'Formato',
-        tooltipShapeOptions: ['Responsivo', 'Arredondado', 'Redondo', 'Miniatura', 'Nenhum']
-      }
-    }
   });
   $.extend($.summernote.options, {
     imageShapes: {
