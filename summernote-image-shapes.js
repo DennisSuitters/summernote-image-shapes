@@ -15,7 +15,7 @@
         tooltip: 'Image Shapes',
         tooltipShapeOptions: ['Responsive', 'Rounded', 'Circle', 'Thumbnail', 'None']
       }
-    }
+    },
   });
   $.extend($.summernote.options, {
     imageShapes: {
