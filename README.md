@@ -14,7 +14,7 @@ Include the following code after including Summernote:
 ```
 
 #### 2. Supported languages
-Currently available in English!
+Currently available in English and Brazilian Portuguese!
 
 #### 3. Summernote options
 Finally, customize the Summernote image popover.
